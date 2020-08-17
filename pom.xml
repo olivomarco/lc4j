@@ -95,4 +95,11 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>Github Repository for lc4j</name>
+      <url>https://maven.pkg.github.com/olivomarco/lc4j</url>
+    </repository>
+  </distributionManagement>
 </project>
