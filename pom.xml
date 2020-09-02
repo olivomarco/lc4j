@@ -5,7 +5,7 @@
 
   <groupId>net.olivo</groupId>
   <artifactId>lc4j</artifactId>
-  <version>4.1-SNAPSHOT</version>
+  <version>4.0</version>
   <packaging>jar</packaging>
 
   <name>lc4j</name>
@@ -19,6 +19,25 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+
+  <developers>
+    <developer>
+      <id>olivomarco</id>
+      <name>Marco Olivo</name>
+      <email>8478776+olivomarco@users.noreply.github.com</email>
+      <organization>olivomarco</organization>
+      <organizationUrl>http://github.com/olivomarco/lc4j</organizationUrl>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <timezone>+1</timezone>
+
+      <properties>
+        <picUrl>https://avatars1.githubusercontent.com/u/8478776</picUrl>
+      </properties>
+    </developer>
+  </developers>
 
   <scm>
     <connection>scm:git:git://github.com/olivomarco/lc4j.git</connection>
