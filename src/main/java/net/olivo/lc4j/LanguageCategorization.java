@@ -34,7 +34,7 @@ import java.io.FileNotFoundException;
  * input document.</p>
  *
  * <p>The idea has its roots in <a href="https://www.let.rug.nl/vannoord/TextCat/">TextCat</a>,
- * a free Perl library which implements the text categorization algorithm presented in:<br/>
+ * a free Perl library which implements the text categorization algorithm presented in:<br>
  * <cite>Cavnar, W.&nbsp;B.&nbsp; and J.&nbsp;M.&nbsp;Trenkle, ''N-Gram-Based Text Categorization''
  * In Proceedings of Third Annual Symposium on Document Analysis and Information Retrieval, Las Vegas, NV,
  * UNLV Publications/Reprographics, pp.&nbsp;161-175, 11-13 April 1994</cite>.</p>
@@ -55,7 +55,7 @@ public class LanguageCategorization {
 	private int NUM_CHARS_TO_EXAMINE = 1000;
 	/** The number of topmost n-grams to use. If set to <code>0</code>, then all n-grams will be used. */
 	private int USE_TOPMOST_NGRAMS = 400;
-	/** Determines how much worse result must be in order not to be mentioned as an alternative.<br/>
+	/** Determines how much worse result must be in order not to be mentioned as an alternative.<br>
 	 * Typical value: <code>1.05</code> or <code>1.1</code>.
 	 */
 	private float UNKNOWN_THRESHOLD = 1.01f;
@@ -159,7 +159,7 @@ public class LanguageCategorization {
 	 * <p><strong>BE WARNED THAT</strong> good results are obtained by passing to this method
 	 * a full text, together with numbers, punctuation and other text characters. So, if you
 	 * have - say - HTML, just throw away tags, but leave the rest if you want to obtain
-	 * precise results: punctuation comes in very handy at determining the language.<br/>
+	 * precise results: punctuation comes in very handy at determining the language.<br>
 	 * At some extent, also upper/lower case letters could help.</p>
 	 *
 	 * @param input the text upon which the language-model should be built.
